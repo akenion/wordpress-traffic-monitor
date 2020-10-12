@@ -1,0 +1,14 @@
+table.recent-requests{
+	border-spacing: 0;
+	border: 1px solid black;
+}
+table.recent-requests tr:nth-child(odd){
+	background-color: #CCCCCC;
+}
+table.recent-requests td:not(.overflow){
+	white-space: nowrap;
+	text-align: center;
+}
+table.recent-requests td.overflow{
+	width: 25%;
+}
